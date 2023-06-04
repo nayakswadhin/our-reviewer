@@ -75,13 +75,6 @@ body{
   display: flex;
   justify-content: center;
 }
-.SurpriseBox{
-  color: rgb(18, 225, 248);
-  font-size: 0.9rem;
-  background-color: rgb(224, 252, 255);
-  padding: 5px 15px;
-  border-radius: 10px;  
-}
 /* SliderButton */
 .SlideButton{
   display: flex;
@@ -89,15 +82,4 @@ body{
   align-items: center;
   padding: 23px;
   
-  /* display: block;
-  margin-inline: auto; */
-}
-.SlideButton button{
-  padding: 2px 7px;
-  margin-inline: 10px;
-  border-radius: 5px;
-}
-.SlideButton button:hover{
-  color: rgb(18, 225, 248);
-  background-color: rgb(224, 252, 255);
 }

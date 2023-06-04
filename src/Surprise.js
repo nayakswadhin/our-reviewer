@@ -1,11 +1,13 @@
-const Surprise = () => {
-    return ( 
-        <div className="Surprise">
-            <div className="SurpriseBox">
-                Surprise Me
-            </div>
-        </div>
-     );
-}
- 
+import { Button } from "@mui/material";
+
+const Surprise = ({ onSurprise }) => {
+  return (
+    <div className="Surprise">
+      <Button variant="contained" onClick={onSurprise}>
+        Surprise Me
+      </Button>
+    </div>
+  );
+};
+
 export default Surprise;
