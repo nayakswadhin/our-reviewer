@@ -75,7 +75,7 @@ const Card = () => {
 
   return (
     <div className="card">
-      <ProfilePic image={reviewer.avator} />
+      <ProfilePic image={reviewer.avatar} />
       <Name name={reviewer.name} designation={reviewer.designation} />
       <Intro review={reviewer.review} />
       <SlideButton onPrevious={handlePrevious} onNext={handleNext} />
